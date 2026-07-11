@@ -1,20 +1,18 @@
 from fastapi import FastAPI
 
+from app.core.config import settings
+from app.api.health import router as health_router
+
 app = FastAPI(
-    title="SECE Intelligent RAG Assistant",
-    description="AI-powered RAG chatbot for Sri Eshwar College of Engineering",
-    version="1.0.0"
+    title=settings.APP_NAME,
+    version=settings.APP_VERSION
 )
+
+app.include_router(health_router)
+
 
 @app.get("/")
 def root():
     return {
-        "message": "Welcome to the SECE Intelligent RAG Assistant 🚀"
-    }
-
-@app.get("/health")
-def health_check():
-    return {
-        "status": "Healthy",
-        "server": "Running"
+        "message": f"Welcome to {settings.APP_NAME}"
     }
