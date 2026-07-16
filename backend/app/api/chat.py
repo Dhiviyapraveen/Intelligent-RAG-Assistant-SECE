@@ -1,13 +1,23 @@
 from fastapi import APIRouter
 
+from app.schemas.chat import ChatRequest
+from app.services.rag_pipeline import rag_pipeline
+
 router = APIRouter(
+
     prefix="/chat",
-    tags=["Chat"]
+
+    tags=["RAG Chat"]
+
 )
 
 
 @router.post("/")
-def chat():
-    return {
-        "message": "Chat endpoint is ready. RAG pipeline will be connected soon."
-    }
+
+def chat(request: ChatRequest):
+
+    return rag_pipeline.ask(
+
+        request.question
+
+    )
