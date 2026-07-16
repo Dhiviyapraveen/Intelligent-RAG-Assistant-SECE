@@ -489,11 +489,11 @@
         },
         {
             "chunk_id": 121,
-            "content": ". Please enable JavaScript in your browser to complete this form. Name * Phone * Community * Select Your Community BC MBC SC ST SCA BCM OC Others School Board * Select Your School Board Matric CBSE ICSE Others SSLC Mark * Expected Cut-off * Taluk * District * Phone Course Name Degree Course * UG PG Lateral Course Interested: * Select Your Course B.E. Computer Science and Engineering (CSE) B.E. Computer Science and Engineering (AI & ML) B.E. Computer and Communication Engineering (CCE) B.E. Computer Science and Engineering (Cyber Security) B.E. Electronics and Communication Engineering (ECE) B.E. Electrical and Electronics Engineering (EEE) B.E. Mechanical Engineering (MECH) B.Tech. Artificial Intelligence and Data Science (AI&DS) B.Tech. Computer Science and Business Systems (CS&BS) B.Tech"
+            "content": ". Please enable JavaScript in your browser to complete this form. Course Degree School Name * Phone * Community * Select Your Community BC MBC SC ST SCA BCM OC Others School Board * Select Your School Board Matric CBSE ICSE Others SSLC Mark * Expected Cut-off * Taluk * District * Degree Course * UG PG Lateral Course Interested: * Select Your Course B.E. Computer Science and Engineering (CSE) B.E. Computer Science and Engineering (AI & ML) B.E. Computer and Communication Engineering (CCE) B.E. Computer Science and Engineering (Cyber Security) B.E. Electronics and Communication Engineering (ECE) B.E. Electrical and Electronics Engineering (EEE) B.E. Mechanical Engineering (MECH) B.Tech. Artificial Intelligence and Data Science (AI&DS) B.Tech"
         },
         {
             "chunk_id": 122,
-            "content": ". Mechanical Engineering (MECH) B.Tech. Artificial Intelligence and Data Science (AI&DS) B.Tech. Computer Science and Business Systems (CS&BS) B.Tech. Information Technology (IT) M.E. Computer Science and Engineering M.E. Engineering Design M.E. VLSI Design Custom Captcha * = Submit"
+            "content": ". Electrical and Electronics Engineering (EEE) B.E. Mechanical Engineering (MECH) B.Tech. Artificial Intelligence and Data Science (AI&DS) B.Tech. Computer Science and Business Systems (CS&BS) B.Tech. Information Technology (IT) M.E. Computer Science and Engineering M.E. Engineering Design M.E. VLSI Design Custom Captcha * = Submit"
         }
     ]
 }
