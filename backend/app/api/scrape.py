@@ -9,11 +9,6 @@ router = APIRouter(
 
 
 @router.get("/")
-def scrape_homepage():
+def scrape():
 
-    data = crawler.crawl_homepage()
-
-    return {
-        "message": "Homepage scraped successfully.",
-        "data": data
-    }
+    return crawler.crawl_all_pages()
