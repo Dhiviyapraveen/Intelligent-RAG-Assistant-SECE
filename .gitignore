@@ -1,7 +1,72 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+backend/venv/
 venv/
 .env
-__pycache__/
-node_modules/
-vector_db/
-*.pyc
+
+# Python Logs
+*.log
+
+# ===========================
+# FastAPI
+# ===========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===========================
+# Data Files
+# ===========================
+backend/data/raw/
+backend/data/cleaned/
+backend/data/chunks/
+
+# Vector Database
+backend/chroma_db/
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/
+
+# macOS
 .DS_Store
+
+# ===========================
+# React / Vite
+# ===========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===========================
+# Environment Files
+# ===========================
+backend/.env
+frontend/.env
+*.env.local
+
+# ===========================
+# IDE
+# ===========================
+.idea/
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.temp

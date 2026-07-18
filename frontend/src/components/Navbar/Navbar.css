@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #0f172a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar p {
+  margin-top: 8px;
+  color: #cbd5e1;
+}
