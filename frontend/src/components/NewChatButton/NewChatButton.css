@@ -1,0 +1,15 @@
+.new-chat-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.new-chat-btn:hover {
+  background: #1d4ed8;
+}

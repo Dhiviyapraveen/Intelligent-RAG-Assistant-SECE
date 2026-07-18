@@ -1,0 +1,15 @@
+.chat-item {
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: 0.2s;
+}
+
+.chat-item:hover {
+  background: #1e293b;
+}
+
+.active-chat {
+  background: #2563eb;
+}
