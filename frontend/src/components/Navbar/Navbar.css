@@ -1,8 +1,10 @@
 .navbar {
-  background-color: #0f172a;
+  background: #0f172a;
   color: white;
   padding: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
 }
 
 .navbar h2 {
@@ -10,6 +12,7 @@
 }
 
 .navbar p {
-  margin-top: 8px;
+  margin-top: 5px;
   color: #cbd5e1;
+  text-align: center;
 }

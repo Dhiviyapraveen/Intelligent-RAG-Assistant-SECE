@@ -3,8 +3,17 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2>SECE Intelligent RAG Assistant</h2>
-      <p>Ask anything about Sri Eshwar College</p>
+
+      <div>
+
+        <h2>SECE Intelligent RAG Assistant</h2>
+
+        <p>
+          Powered by Retrieval Augmented Generation
+        </p>
+
+      </div>
+
     </nav>
   );
 }

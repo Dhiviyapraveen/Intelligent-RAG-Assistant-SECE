@@ -1,0 +1,37 @@
+.message {
+  margin-bottom: 20px;
+  padding: 18px;
+  border-radius: 14px;
+  max-width: 80%;
+}
+
+.user-message {
+  margin-left: auto;
+  background: #2563eb;
+  color: white;
+}
+
+.bot-message {
+  margin-right: auto;
+  background: white;
+  border: 1px solid #dbe4ef;
+}
+
+.message-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.message-body {
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
+.sources {
+  margin-top: 20px;
+}
+
+.sources h4 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}

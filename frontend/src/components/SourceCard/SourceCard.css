@@ -1,0 +1,20 @@
+.source-card {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #eff6ff;
+  border-left: 4px solid #2563eb;
+}
+
+.source-card h4 {
+  margin-bottom: 6px;
+}
+
+.source-card a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.source-card a:hover {
+  text-decoration: underline;
+}
